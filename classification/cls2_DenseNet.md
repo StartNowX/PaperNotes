@@ -49,3 +49,9 @@ code: [https://github.com/liuzhuang13/DenseNet](https://github.com/liuzhuang13/D
         * transition layer的权重同样有在其之前的dense block中传递，即网络的数据能通过某些间接方式从第一层传到最后一层
         * transition layer中含有很多冗余的信息，这一点和前面第四点compression结果吻合
         * 通过classifier的对比，可以看出在网络的后面一些层也产生了更高层的特征
+
+
+---
+
+资料
+1. 知乎他人解读，里面的用的作者CVRP的slide图比较生动[https://zhuanlan.zhihu.com/p/37189203](https://zhuanlan.zhihu.com/p/37189203)
