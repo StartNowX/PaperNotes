@@ -1,6 +1,6 @@
-论文: [Aggregated Residual Transformations for Deep Neural Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf)
+paper: [Aggregated Residual Transformations for Deep Neural Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf)
 
-github: [https://github.com/facebookresearch/ResNeXt](https://github.com/facebookresearch/ResNeXt)
+code: [https://github.com/facebookresearch/ResNeXt](https://github.com/facebookresearch/ResNeXt)
 
 
 ### 1. Abstact
