@@ -22,6 +22,7 @@ paper: [Feature Pyramid Networks for Object Detection](http://openaccess.thecvf.
         * 对与该层对应的top-down的上一层采用一个Upsampling（作者用最近邻的方式）将fm从上一层扩增2倍到当前层（主要为了和横向过来的层保持尺度的统一方便merge）
         * 将刚才两个操作后的特征，通过element-wise的addition方式merge到一起
     * 多尺度，作者对每一层都去获取一个prediction的结果，而在prediction之前，先对merged feature map执行一个3\*3的卷积操作（作者给出的理由是通过这个操作来减少upsampling操作的混叠效应，可以理解使得最终的特征更鲁棒）
+    * 作者采用的所有pyramid level都是使用256个channel
 
 2. 如何和RPN结合？
     * 作者用FPN替换RPN的输入特征层，即对上述的每一个merged feature map后添加一个跟着两个1\*1卷积的3\*3的conv（文中表述为network head）
